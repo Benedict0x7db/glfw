@@ -245,3 +245,4 @@ if (GLFW_INSTALL)
             LIBRARY DESTINATION "${CMAKE_INSTALL_LIBDIR}")
 endif()
 
+set_target_properties(glfw PROPERTIES FOLDER External)
